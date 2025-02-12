@@ -1,0 +1,19 @@
+<configs>
+	<append xpath="/gameevents">	
+		<action_sequence name="effort_action_increase_mining_progression">
+			<action class="ModifyProgression">
+				<property name="modify_type" value="Add" />
+				<property name="progression_names" value="perkEffortMining" />
+				<property name="values" value="1" />
+			</action>
+		</action_sequence>
+		
+		<action_sequence name="effort_action_show_mining_progression_BeltTooltip">
+			<action class="BeltTooltip">
+				<property name="text" value="You are getting better at this. (Mining)" />
+			</action>
+		</action_sequence>
+
+		
+	</append>
+</configs>

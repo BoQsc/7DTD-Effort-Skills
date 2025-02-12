@@ -1,0 +1,8 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+atteffort,progression,Attribute,,,"Effort"
+attEffortDesc,progression,Attribute,,,"Increases your abilities while you play the game. Requirement: You have to be 50+ level for effort to enable and start to increase."
+attEffortName,progression,Attribute,,,"Your effort skills:"
+perkEffortMining,progression,Attribute,,,"Mining (+ 0.01)"
+perkEffortMiningName,progression,Attribute,,,"Mining"
+perkEffortMiningDesc,progression,Attribute,,,"By mining with handtools like pickaxe you can increase your ability of better mining. Auger may not give improvement in your ability of mining, but still benefit. You have keen eye for mining."
+perkEffortMiningDescLong,progression,Attribute,,,"Your effort skill: Mining"

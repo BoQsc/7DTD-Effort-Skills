@@ -1,0 +1,26 @@
+<configs>
+	<append xpath="/progression/attributes">
+		<attribute name="attEffort" name_key="attEffortName" desc_key="attEffortDesc" icon="ui_game_symbol_perk" min_level="0" max_level="0" base_skill_point_cost="0">			
+			<effect_group>
+
+			</effect_group>
+		</attribute>
+	</append>
+	
+
+	<append xpath="/progression/perks">
+		<perk name="perkEffortMining" max_level="1000" parent="attEffort" base_skill_point_cost="0" name_key="perkEffortMiningName" desc_key="perkEffortMiningDesc" long_desc_key="perkEffortMiningDescLong" icon="ui_game_symbol_mining">
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkMiner69r,perkMotherLode"/>
+					<passive_effect name="BlockDamage" operation="perc_add" value="0.01,1.75" level="1,1000" tags="perkMiner69r"/>
+					<passive_effect name="EntityDamage" operation="perc_add" value="0.01,1.25" level="1,1000" tags="perkMiner69r"/>
+					<passive_effect name="HarvestCount" operation="perc_add" value="0.01,1.5" level="1,1000" tags="oreWoodHarvest" />
+					<passive_effect name="StaminaLoss" operation="perc_add" value="-.01,-.225" level="1,1000"  tags="primary"/>/>
+					<passive_effect name="StaminaLoss" operation="perc_add" value="-.01,-.45" level="1,1000" tags="secondary"/>
+					<passive_effect name="DegradationPerUse" operation="perc_add" value="-0.01,-0.50" level="1,1000" tags="perkMiner69r">
+					</passive_effect>
+			</effect_group>
+		</perk>
+	</append>
+
+</configs>

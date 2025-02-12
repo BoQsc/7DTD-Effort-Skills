@@ -1,0 +1,13 @@
+<effort>
+
+	<csv xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='Buffs']/@value" delim="," op="add">buffStatusCheck03</csv>
+	<append xpath="/entity_classes/entity_class[@name='playerMale']">
+		<effect_group name="EffortModlet">
+		  <triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" target="self" buff="buffHittingBlock"/>
+		  <triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" target="self" buff="buffHittingBlock"/>
+		  
+		</effect_group>
+	</append>
+
+
+</effort>

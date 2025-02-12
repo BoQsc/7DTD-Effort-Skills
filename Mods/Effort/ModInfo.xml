@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="Effort" /> 
+    <DisplayName value="Effort" />
+    <Version value="1.0.0.0" /> 
+    <Description value="Effort based hook." /> 
+    <Author value="Vanilla Server" /> 
+    <Website value="" /> 
+</xml>
