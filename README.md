@@ -3,3 +3,5 @@ Place this mod inside `C:\Program Files (x86)\Steam\steamapps\common\7 Days To D
 
 ### Testing
 Use any Mining Tool for 1 minute and you should see tooltip and buff effect of Mining skill increasing.
+
+You can check your Mining level by opening the usual character skills. 
