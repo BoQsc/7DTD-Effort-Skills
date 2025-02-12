@@ -7,4 +7,4 @@ Use any Mining Tool for 1 minute and you should see tooltip and buff effect of M
 You can check your Mining level by opening the usual character skills UI. 
 
 ### Bug 
-if used on a server, player's progression will reset after a while; randomly over many hours of gameplay.
+If used on a server, player's progression will reset after a while; randomly over many hours of gameplay.
